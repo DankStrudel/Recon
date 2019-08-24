@@ -1,0 +1,3 @@
+[submodule "Recon/vendor/spdlog"]
+	path = Recon/vendor/spdlog
+	url = https://github.com/gabime/spdlog

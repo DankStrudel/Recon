@@ -18,6 +18,9 @@ project "Recon"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "rcpch.h"
+	pchsource "Recon/src/rcpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

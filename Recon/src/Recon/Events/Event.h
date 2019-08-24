@@ -1,9 +1,6 @@
 #pragma once
-
+#include "rcpch.h"
 #include "Recon/Core.h"
-
-#include <string>
-#include <functional>
 
 namespace Recon {
 

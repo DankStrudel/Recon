@@ -1,3 +1,4 @@
+#include "rcpch.h"
 #include "Application.h"
 
 #include "Recon/Events/ApplicationEvent.h"

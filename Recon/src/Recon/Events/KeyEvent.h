@@ -21,8 +21,9 @@ namespace Recon {
 	
 	public:
 		KeyPressedEvent(int keycode, int repeatCount)
-			: KeyEvent(keycode), m_RepeatCount(repeatCount) {]}
+			: KeyEvent(keycode), m_RepeatCount(repeatCount) {}
 
+		EVENT_CLASS_TYPE(KeyPressed)
 	private:
 		int m_RepeatCount;
 	};

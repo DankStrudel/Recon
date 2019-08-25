@@ -1,3 +1,6 @@
 [submodule "Recon/vendor/spdlog"]
 	path = Recon/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "Recon/vendor/GLFW"]
+	path = Recon/vendor/GLFW
+	url = https://github.com/TheCherno/glfw
